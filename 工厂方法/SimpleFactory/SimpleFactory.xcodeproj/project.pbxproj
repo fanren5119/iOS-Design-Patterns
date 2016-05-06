@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B84DE211C88404C00E8CD71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84DE201C88404C00E8CD71 /* main.m */; };
+		9B84DE241C88404C00E8CD71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84DE231C88404C00E8CD71 /* AppDelegate.m */; };
+		9B84DE271C88404C00E8CD71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84DE261C88404C00E8CD71 /* ViewController.m */; };
+		9B84DE2A1C88404C00E8CD71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B84DE281C88404C00E8CD71 /* Main.storyboard */; };
+		9B84DE2C1C88404C00E8CD71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B84DE2B1C88404C00E8CD71 /* Assets.xcassets */; };
+		9B84DE2F1C88404C00E8CD71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B84DE2D1C88404C00E8CD71 /* LaunchScreen.storyboard */; };
+		9B84DE381C88407E00E8CD71 /* PhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84DE371C88407E00E8CD71 /* PhoneFactory.m */; };
+		9B84DE3B1C8840EE00E8CD71 /* BaseDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84DE3A1C8840EE00E8CD71 /* BaseDevice.m */; };
+		9B84DE3F1C88426200E8CD71 /* IPhoneDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84DE3E1C88426200E8CD71 /* IPhoneDevice.m */; };
+		9B84DE421C88426C00E8CD71 /* AndroidDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84DE411C88426C00E8CD71 /* AndroidDevice.m */; };
+		9B84DE451C8842AB00E8CD71 /* NokiaDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84DE441C8842AB00E8CD71 /* NokiaDevice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B84DE1C1C88404C00E8CD71 /* SimpleFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B84DE201C88404C00E8CD71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B84DE221C88404C00E8CD71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B84DE231C88404C00E8CD71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B84DE251C88404C00E8CD71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B84DE261C88404C00E8CD71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B84DE291C88404C00E8CD71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B84DE2B1C88404C00E8CD71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B84DE2E1C88404C00E8CD71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B84DE301C88404C00E8CD71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B84DE361C88407E00E8CD71 /* PhoneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneFactory.h; sourceTree = "<group>"; };
+		9B84DE371C88407E00E8CD71 /* PhoneFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneFactory.m; sourceTree = "<group>"; };
+		9B84DE391C8840EE00E8CD71 /* BaseDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDevice.h; sourceTree = "<group>"; };
+		9B84DE3A1C8840EE00E8CD71 /* BaseDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDevice.m; sourceTree = "<group>"; };
+		9B84DE3C1C88418900E8CD71 /* PhoneProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneProtocol.h; sourceTree = "<group>"; };
+		9B84DE3D1C88426200E8CD71 /* IPhoneDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneDevice.h; sourceTree = "<group>"; };
+		9B84DE3E1C88426200E8CD71 /* IPhoneDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneDevice.m; sourceTree = "<group>"; };
+		9B84DE401C88426C00E8CD71 /* AndroidDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidDevice.h; sourceTree = "<group>"; };
+		9B84DE411C88426C00E8CD71 /* AndroidDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndroidDevice.m; sourceTree = "<group>"; };
+		9B84DE431C8842AB00E8CD71 /* NokiaDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NokiaDevice.h; sourceTree = "<group>"; };
+		9B84DE441C8842AB00E8CD71 /* NokiaDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NokiaDevice.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B84DE191C88404C00E8CD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B84DE131C88404C00E8CD71 = {
+			isa = PBXGroup;
+			children = (
+				9B84DE1E1C88404C00E8CD71 /* SimpleFactory */,
+				9B84DE1D1C88404C00E8CD71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B84DE1D1C88404C00E8CD71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B84DE1C1C88404C00E8CD71 /* SimpleFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B84DE1E1C88404C00E8CD71 /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				9B84DE221C88404C00E8CD71 /* AppDelegate.h */,
+				9B84DE231C88404C00E8CD71 /* AppDelegate.m */,
+				9B84DE251C88404C00E8CD71 /* ViewController.h */,
+				9B84DE261C88404C00E8CD71 /* ViewController.m */,
+				9B84DE361C88407E00E8CD71 /* PhoneFactory.h */,
+				9B84DE371C88407E00E8CD71 /* PhoneFactory.m */,
+				9B84DE391C8840EE00E8CD71 /* BaseDevice.h */,
+				9B84DE3A1C8840EE00E8CD71 /* BaseDevice.m */,
+				9B84DE3C1C88418900E8CD71 /* PhoneProtocol.h */,
+				9B84DE3D1C88426200E8CD71 /* IPhoneDevice.h */,
+				9B84DE3E1C88426200E8CD71 /* IPhoneDevice.m */,
+				9B84DE401C88426C00E8CD71 /* AndroidDevice.h */,
+				9B84DE411C88426C00E8CD71 /* AndroidDevice.m */,
+				9B84DE431C8842AB00E8CD71 /* NokiaDevice.h */,
+				9B84DE441C8842AB00E8CD71 /* NokiaDevice.m */,
+				9B84DE281C88404C00E8CD71 /* Main.storyboard */,
+				9B84DE2B1C88404C00E8CD71 /* Assets.xcassets */,
+				9B84DE2D1C88404C00E8CD71 /* LaunchScreen.storyboard */,
+				9B84DE301C88404C00E8CD71 /* Info.plist */,
+				9B84DE1F1C88404C00E8CD71 /* Supporting Files */,
+			);
+			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		9B84DE1F1C88404C00E8CD71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B84DE201C88404C00E8CD71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B84DE1B1C88404C00E8CD71 /* SimpleFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B84DE331C88404C00E8CD71 /* Build configuration list for PBXNativeTarget "SimpleFactory" */;
+			buildPhases = (
+				9B84DE181C88404C00E8CD71 /* Sources */,
+				9B84DE191C88404C00E8CD71 /* Frameworks */,
+				9B84DE1A1C88404C00E8CD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleFactory;
+			productName = SimpleFactory;
+			productReference = 9B84DE1C1C88404C00E8CD71 /* SimpleFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B84DE141C88404C00E8CD71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wanglei;
+				TargetAttributes = {
+					9B84DE1B1C88404C00E8CD71 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B84DE171C88404C00E8CD71 /* Build configuration list for PBXProject "SimpleFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B84DE131C88404C00E8CD71;
+			productRefGroup = 9B84DE1D1C88404C00E8CD71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B84DE1B1C88404C00E8CD71 /* SimpleFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B84DE1A1C88404C00E8CD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B84DE2F1C88404C00E8CD71 /* LaunchScreen.storyboard in Resources */,
+				9B84DE2C1C88404C00E8CD71 /* Assets.xcassets in Resources */,
+				9B84DE2A1C88404C00E8CD71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B84DE181C88404C00E8CD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B84DE271C88404C00E8CD71 /* ViewController.m in Sources */,
+				9B84DE241C88404C00E8CD71 /* AppDelegate.m in Sources */,
+				9B84DE451C8842AB00E8CD71 /* NokiaDevice.m in Sources */,
+				9B84DE3F1C88426200E8CD71 /* IPhoneDevice.m in Sources */,
+				9B84DE211C88404C00E8CD71 /* main.m in Sources */,
+				9B84DE381C88407E00E8CD71 /* PhoneFactory.m in Sources */,
+				9B84DE421C88426C00E8CD71 /* AndroidDevice.m in Sources */,
+				9B84DE3B1C8840EE00E8CD71 /* BaseDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B84DE281C88404C00E8CD71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B84DE291C88404C00E8CD71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B84DE2D1C88404C00E8CD71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B84DE2E1C88404C00E8CD71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B84DE311C88404C00E8CD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B84DE321C88404C00E8CD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B84DE341C88404C00E8CD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.cn.SimpleFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B84DE351C88404C00E8CD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleFactory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.cn.SimpleFactory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B84DE171C88404C00E8CD71 /* Build configuration list for PBXProject "SimpleFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B84DE311C88404C00E8CD71 /* Debug */,
+				9B84DE321C88404C00E8CD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B84DE331C88404C00E8CD71 /* Build configuration list for PBXNativeTarget "SimpleFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B84DE341C88404C00E8CD71 /* Debug */,
+				9B84DE351C88404C00E8CD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B84DE141C88404C00E8CD71 /* Project object */;
+}

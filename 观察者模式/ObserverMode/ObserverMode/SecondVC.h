@@ -1,0 +1,13 @@
+//
+//  SecondVC.h
+//  ObserverMode
+//
+//  Created by 王磊 on 16/3/9.
+//  Copyright © 2016年 wanglei. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SecondVC : UIViewController
+
+@end

@@ -1,0 +1,14 @@
+//
+//  BaseDevice.h
+//  SimpleFactory
+//
+//  Created by 王磊 on 16/3/3.
+//  Copyright © 2016年 wanglei. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "PhoneProtocol.h"
+
+@interface BaseDevice : NSObject <PhoneProtocol>
+
+@end
