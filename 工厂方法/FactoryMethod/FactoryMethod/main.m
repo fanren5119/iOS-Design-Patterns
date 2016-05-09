@@ -1,8 +1,8 @@
 //
 //  main.m
-//  AbstractFactory
+//  FactoryMethod
 //
-//  Created by 王磊 on 16/3/3.
+//  Created by 王磊 on 16/5/9.
 //  Copyright © 2016年 wanglei. All rights reserved.
 //
 

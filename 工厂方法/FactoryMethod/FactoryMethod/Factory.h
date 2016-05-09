@@ -1,19 +1,16 @@
 //
 //  Factory.h
-//  AbstractFactory
+//  FactoryMethod
 //
-//  Created by 王磊 on 16/3/3.
+//  Created by 王磊 on 16/5/9.
 //  Copyright © 2016年 wanglei. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "Phone.h"
-#import "Watch.h"
+#import "Device.h"
 
 @interface Factory : NSObject
 
-- (Phone *)createPhone;
-
-- (Watch *)createWatch;
+- (Device *)createDevice;
 
 @end
