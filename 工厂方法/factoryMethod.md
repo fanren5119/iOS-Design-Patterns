@@ -20,6 +20,7 @@
     的实例化延迟到其子类；
 ##3.工厂方法的静态类结构
 ![静态类机构](factoryMethod.png)
+
         抽象Product（产品）定义了工厂方法创建的对象的接口，ConcreteProd
     uct实现了Product的接口。Creator定义了返回Product对象的工厂方法。它
     也可以为工厂方法定义一个默认实现，返回默认Product对象。Creator的其他
