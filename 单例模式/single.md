@@ -5,7 +5,7 @@
     有想要生成对象的访问，使用工厂方法来限制实例化过程。这个方法应该
     是静态方法（类方法），因为让类的实例去生成另一个唯一实例毫无意义；
 ##2.结构图
-![静态结构图](singleton.png)
+![静态结构图](singleton.jpg)
 
         Static uniqueInstance是sigleton的唯一实例，static 
     sharedInstance将把它返回客户端。通常，sharedInstance 会检查
