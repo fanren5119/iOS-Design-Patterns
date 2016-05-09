@@ -6,6 +6,7 @@
     是静态方法（类方法），因为让类的实例去生成另一个唯一实例毫无意义；
 ##2.结构图
 ![静态结构图](singleton.png)
+
         Static uniqueInstance是sigleton的唯一实例，static 
     sharedInstance将把它返回客户端。通常，sharedInstance 会检查
     uniqueInstance是否已经被实例化。如果没有，他就会生成一个实例，
