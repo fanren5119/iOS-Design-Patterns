@@ -13,11 +13,11 @@
 		9BA7733F1C8D5C96006E6020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA7733D1C8D5C96006E6020 /* Main.storyboard */; };
 		9BA773411C8D5C96006E6020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA773401C8D5C96006E6020 /* Assets.xcassets */; };
 		9BA773441C8D5C96006E6020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA773421C8D5C96006E6020 /* LaunchScreen.storyboard */; };
-		9BA7734D1C8D5CC0006E6020 /* CarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7734C1C8D5CC0006E6020 /* CarBuilder.m */; };
-		9BA773561C8D5FDC006E6020 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA773551C8D5FDC006E6020 /* Engine.m */; };
-		9BA773591C8D602D006E6020 /* Wheels.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA773581C8D602D006E6020 /* Wheels.m */; };
-		9BA7735C1C8D6063006E6020 /* Dools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7735B1C8D6063006E6020 /* Dools.m */; };
-		9BA7735F1C8D61B2006E6020 /* YEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7735E1C8D61B2006E6020 /* YEngine.m */; };
+		9BBFD1791CE1803D006E9A95 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFD1781CE1803D006E9A95 /* Car.m */; };
+		9BBFD17C1CE18197006E9A95 /* CarDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFD17B1CE18197006E9A95 /* CarDirector.m */; };
+		9BBFD17F1CE181AB006E9A95 /* CarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFD17E1CE181AB006E9A95 /* CarBuilder.m */; };
+		9BBFD1821CE18717006E9A95 /* EleticCarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFD1811CE18717006E9A95 /* EleticCarBuilder.m */; };
+		9BBFD1851CE18C27006E9A95 /* BusBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBFD1841CE18C27006E9A95 /* BusBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,20 +31,16 @@
 		9BA773401C8D5C96006E6020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA773431C8D5C96006E6020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA773451C8D5C96006E6020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BA7734B1C8D5CC0006E6020 /* CarBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarBuilder.h; sourceTree = "<group>"; };
-		9BA7734C1C8D5CC0006E6020 /* CarBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarBuilder.m; sourceTree = "<group>"; };
-		9BA7734E1C8D5CF8006E6020 /* BuilderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderProtocol.h; sourceTree = "<group>"; };
-		9BA7734F1C8D5D34006E6020 /* AbstractEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractEngine.h; sourceTree = "<group>"; };
-		9BA773501C8D5DAD006E6020 /* AbstractWheels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractWheels.h; sourceTree = "<group>"; };
-		9BA773511C8D5DEA006E6020 /* AbstractDools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractDools.h; sourceTree = "<group>"; };
-		9BA773541C8D5FDC006E6020 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
-		9BA773551C8D5FDC006E6020 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
-		9BA773571C8D602D006E6020 /* Wheels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wheels.h; sourceTree = "<group>"; };
-		9BA773581C8D602D006E6020 /* Wheels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wheels.m; sourceTree = "<group>"; };
-		9BA7735A1C8D6063006E6020 /* Dools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dools.h; sourceTree = "<group>"; };
-		9BA7735B1C8D6063006E6020 /* Dools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dools.m; sourceTree = "<group>"; };
-		9BA7735D1C8D61B2006E6020 /* YEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YEngine.h; sourceTree = "<group>"; };
-		9BA7735E1C8D61B2006E6020 /* YEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YEngine.m; sourceTree = "<group>"; };
+		9BBFD1771CE1803D006E9A95 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		9BBFD1781CE1803D006E9A95 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		9BBFD17A1CE18197006E9A95 /* CarDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarDirector.h; sourceTree = "<group>"; };
+		9BBFD17B1CE18197006E9A95 /* CarDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarDirector.m; sourceTree = "<group>"; };
+		9BBFD17D1CE181AB006E9A95 /* CarBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarBuilder.h; sourceTree = "<group>"; };
+		9BBFD17E1CE181AB006E9A95 /* CarBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarBuilder.m; sourceTree = "<group>"; };
+		9BBFD1801CE18717006E9A95 /* EleticCarBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EleticCarBuilder.h; sourceTree = "<group>"; };
+		9BBFD1811CE18717006E9A95 /* EleticCarBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EleticCarBuilder.m; sourceTree = "<group>"; };
+		9BBFD1831CE18C27006E9A95 /* BusBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusBuilder.h; sourceTree = "<group>"; };
+		9BBFD1841CE18C27006E9A95 /* BusBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,16 +77,16 @@
 				9BA773381C8D5C96006E6020 /* AppDelegate.m */,
 				9BA7733A1C8D5C96006E6020 /* ViewController.h */,
 				9BA7733B1C8D5C96006E6020 /* ViewController.m */,
-				9BA773541C8D5FDC006E6020 /* Engine.h */,
-				9BA773551C8D5FDC006E6020 /* Engine.m */,
-				9BA7735D1C8D61B2006E6020 /* YEngine.h */,
-				9BA7735E1C8D61B2006E6020 /* YEngine.m */,
-				9BA773571C8D602D006E6020 /* Wheels.h */,
-				9BA773581C8D602D006E6020 /* Wheels.m */,
-				9BA7735A1C8D6063006E6020 /* Dools.h */,
-				9BA7735B1C8D6063006E6020 /* Dools.m */,
-				9BA773531C8D5E65006E6020 /* 指挥者 */,
-				9BA773521C8D5E30006E6020 /* 承包类 */,
+				9BBFD1771CE1803D006E9A95 /* Car.h */,
+				9BBFD1781CE1803D006E9A95 /* Car.m */,
+				9BBFD17A1CE18197006E9A95 /* CarDirector.h */,
+				9BBFD17B1CE18197006E9A95 /* CarDirector.m */,
+				9BBFD17D1CE181AB006E9A95 /* CarBuilder.h */,
+				9BBFD17E1CE181AB006E9A95 /* CarBuilder.m */,
+				9BBFD1801CE18717006E9A95 /* EleticCarBuilder.h */,
+				9BBFD1811CE18717006E9A95 /* EleticCarBuilder.m */,
+				9BBFD1831CE18C27006E9A95 /* BusBuilder.h */,
+				9BBFD1841CE18C27006E9A95 /* BusBuilder.m */,
 				9BA7733D1C8D5C96006E6020 /* Main.storyboard */,
 				9BA773401C8D5C96006E6020 /* Assets.xcassets */,
 				9BA773421C8D5C96006E6020 /* LaunchScreen.storyboard */,
@@ -106,26 +102,6 @@
 				9BA773351C8D5C96006E6020 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9BA773521C8D5E30006E6020 /* 承包类 */ = {
-			isa = PBXGroup;
-			children = (
-				9BA7734E1C8D5CF8006E6020 /* BuilderProtocol.h */,
-				9BA7734F1C8D5D34006E6020 /* AbstractEngine.h */,
-				9BA773501C8D5DAD006E6020 /* AbstractWheels.h */,
-				9BA773511C8D5DEA006E6020 /* AbstractDools.h */,
-			);
-			name = "承包类";
-			sourceTree = "<group>";
-		};
-		9BA773531C8D5E65006E6020 /* 指挥者 */ = {
-			isa = PBXGroup;
-			children = (
-				9BA7734B1C8D5CC0006E6020 /* CarBuilder.h */,
-				9BA7734C1C8D5CC0006E6020 /* CarBuilder.m */,
-			);
-			name = "指挥者";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,14 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA7734D1C8D5CC0006E6020 /* CarBuilder.m in Sources */,
-				9BA7735C1C8D6063006E6020 /* Dools.m in Sources */,
-				9BA773591C8D602D006E6020 /* Wheels.m in Sources */,
-				9BA7735F1C8D61B2006E6020 /* YEngine.m in Sources */,
+				9BBFD1851CE18C27006E9A95 /* BusBuilder.m in Sources */,
+				9BBFD1821CE18717006E9A95 /* EleticCarBuilder.m in Sources */,
+				9BBFD1791CE1803D006E9A95 /* Car.m in Sources */,
 				9BA7733C1C8D5C96006E6020 /* ViewController.m in Sources */,
+				9BBFD17F1CE181AB006E9A95 /* CarBuilder.m in Sources */,
 				9BA773391C8D5C96006E6020 /* AppDelegate.m in Sources */,
+				9BBFD17C1CE18197006E9A95 /* CarDirector.m in Sources */,
 				9BA773361C8D5C96006E6020 /* main.m in Sources */,
-				9BA773561C8D5FDC006E6020 /* Engine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

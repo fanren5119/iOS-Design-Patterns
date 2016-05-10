@@ -2,25 +2,20 @@
 //  CarBuilder.h
 //  BuliderMode
 //
-//  Created by 王磊 on 16/3/7.
+//  Created by 王磊 on 16/5/10.
 //  Copyright © 2016年 wanglei. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-
-#import "BuilderProtocol.h"
-#import "AbstractEngine.h"
-#import "AbstractWheels.h"
-#import "AbstractDools.h"
+#import "Car.h"
 
 @interface CarBuilder : NSObject
 
-@property (nonatomic, strong) id <BuilderProtocol, AbstractEngine> engine;
-@property (nonatomic, strong) id <BuilderProtocol, AbstractWheels> wheels;
-@property (nonatomic, strong) id <BuilderProtocol, AbstractDools>  dools;
+@property (nonatomic, strong) Car *car;
 
-@property (nonatomic, strong) NSDictionary *carInfo;
-
-- (void)buildAllPart;
+- (CarBuilder *)buildNewCar;
+- (CarBuilder *)buildEngine:(CGSize)engineSize;
+- (CarBuilder *)buildDools:(UIColor *)doolsColor;
+- (CarBuilder *)buildWheels:(NSInteger)wheelsCount;
 
 @end

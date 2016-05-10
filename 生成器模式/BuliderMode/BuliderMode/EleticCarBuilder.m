@@ -1,42 +1,36 @@
 //
-//  CarBuilder.m
+//  EleticCarBuilder.m
 //  BuliderMode
 //
 //  Created by 王磊 on 16/5/10.
 //  Copyright © 2016年 wanglei. All rights reserved.
 //
 
-#import "CarBuilder.h"
+#import "EleticCarBuilder.h"
 
-@interface CarBuilder ()
+@interface EleticCarBuilder ()
 
 
 @end
 
-@implementation CarBuilder
-
-- (CarBuilder *)buildNewCar
-{
-    _car = [[Car alloc] init];
-    return self;
-}
+@implementation EleticCarBuilder
 
 - (CarBuilder *)buildEngine:(CGSize)engineSize
 {
-    _car.engine = engineSize;
+    self.car.engine = engineSize;
     return self;
 }
 
 
 - (CarBuilder *)buildDools:(UIColor *)doolsColor
 {
-    _car.doolsColor = doolsColor;
+    self.car.doolsColor = doolsColor;
     return self;
 }
 
 - (CarBuilder *)buildWheels:(NSInteger)wheelsCount
 {
-    _car.wheelsCount = wheelsCount;
+    self.car.wheelsCount = wheelsCount;
     return self;
 }
 

@@ -7,12 +7,10 @@
 //
 
 #import "ViewController.h"
-
-#import "CarBuilder.h"
-#import "Engine.h"
-#import "YEngine.h"
-#import "Wheels.h"
-#import "Dools.h"
+#import "Car.h"
+#import "CarDirector.h"
+#import "EleticCarBuilder.h"
+#import "BusBuilder.h"
 
 @interface ViewController ()
 
@@ -24,13 +22,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    CarBuilder *builder = [[CarBuilder alloc] init];
-    builder.engine      = [[YEngine alloc] init];
-    builder.wheels      = [[Wheels alloc] init];
-    builder.dools       = [[Dools alloc] init];
     
-    [builder buildAllPart];
-    NSLog(@"%@", builder.carInfo);
+    CarDirector *carDirector = [[CarDirector  alloc] init];
+    
+    EleticCarBuilder *builder1 = [[EleticCarBuilder alloc] init];
+    Car *car1 = [carDirector createElectricCarsWithBuilder:builder1];
+    NSLog(@"eleticCar: %@", car1);
+    
+    BusBuilder *builder2 = [[BusBuilder alloc] init];
+    Car *car2 = [carDirector createBusWithBuilder:builder2];
+    NSLog(@"bus: %@", car2);
 }
 
 - (void)didReceiveMemoryWarning {
