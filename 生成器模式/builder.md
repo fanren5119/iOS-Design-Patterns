@@ -16,6 +16,7 @@
     表现；
 ##3.生成器模式的类图
 ![生成器模式](builderMode.png)
+        
         除了客户和产品，生成器模式还有两个重要的角色：Director（指导者）和
     Builder（生成器）。Builder知道如何在缺少某些特定信息的情况下建造产品，
     Director知道Builder应该建造什么，以向Builder提供参数来建造特定产品。
