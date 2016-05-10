@@ -46,9 +46,9 @@
     一下是二者的对比
 类适配器|对象适配器
 -------|-------
-只针对单一的具体Adaptee类，  把Adaptee适配到Target|可以适配多个Adaptee及其子类
-易于重载Adaptee的行为，因  为是通过直接的子类化进行的适配 |难以重载Adaptee的行为，需要借助于子类的对象而不是Adaptee本身
-只有一个Adapter对象，无需  额外的指针间接访问Adaptee| 需要额外的指针以间接访问Adaptee并适配其行为
+只针对单一的具体Adaptee类，把Adaptee  适配到Target|可以适配多个Adaptee及其子类
+易于重载Adaptee的行为，因为是通过直接  的子类化进行的适配 |难以重载Adaptee的行为，需要借助于子  类的对象而不是Adaptee本身
+只有一个Adapter对象，无需额外的指针间  接访问Adaptee| 需要额外的指针以间接访问Adaptee并适配  其行为
 ##7.何时使用适配器模式
         在一下情形，可使用适配器模式
         ① 已有的接口与需求不匹配；
