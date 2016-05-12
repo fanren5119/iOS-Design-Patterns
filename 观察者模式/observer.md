@@ -1,5 +1,6 @@
 ##1.观察者模式的引入
 ![订阅杂志](observerExpample.png)
+
         以订阅杂志为例:
         当从杂志发行商订阅杂志的时候，读者会把名字和邮件地址提供给发行商，这样
     新的一期就能送到读者手上。发行商保证把正确的杂志送到正确的地址。一般来说，
@@ -12,6 +13,7 @@
     时，所有依赖于他的对象都得到通知并自动更新；
 ##3.观察者模式的类图
 ![观察者模式](observer.png)
+
         观察者模式是一种发布-订阅模型。Observer从SubJect订阅通知，Concrete
     Observer实现抽象Observer并重载其update方法，一旦Subject的实例需要通知
     Observer任何新的变更，Subject会发送update消息来通知存储在内部列表中所有
@@ -23,6 +25,7 @@
     广播update消息；
 ##4.运行时通知-更新时序图
 ![通知-更新时序图](update.png)
+
         aConcreteObserver首先修改aConcreteSubject的状态，因为内部状态发生
     了变化，aConcreteSubject向自己发送一个notify消息，以便想一组aConcrete
     Observer广播update消息。aConcreteObserver和anotherConcreteObserver
