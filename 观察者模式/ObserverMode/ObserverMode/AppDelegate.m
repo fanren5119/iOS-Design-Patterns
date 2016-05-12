@@ -27,8 +27,6 @@ static NSString *SCIENCE = @"science";
     
     [[SubscriptionCenter defaultCenter] addCustom:self suscriptionNum:SCIENCE];
     
-    [NSNotificationCenter ];
-    
     return YES;
 }
 
